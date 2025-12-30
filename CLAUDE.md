@@ -2,6 +2,21 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Commands
+
+```bash
+npm install          # Install dependencies
+npm run dev          # Start dev server at localhost:3000
+npm run build        # Production build
+npm run lint         # Run ESLint
+```
+
+## Setup
+
+1. Copy `.env.local.example` to `.env.local`
+2. Add Supabase credentials (URL and anon key)
+3. Run `supabase/schema.sql` in Supabase SQL editor
+
 ## Project Overview
 
 **Trip Board** — a shared board for four friends to collect and find travel ideas for a Berlin + Rome trip. Links become visual cards, likes signal group interest, filters help you find things fast while traveling.
